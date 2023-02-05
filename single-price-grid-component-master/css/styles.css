@@ -27,6 +27,7 @@ body{
 main{
     display: flex;
     flex-direction: column;
+    min-height: 100vh;
 }
 .container{
     width: 64rem;
@@ -106,20 +107,7 @@ main{
     font-weight: 400;
     color: var(--light-gray-color);
 }
-footer {
-    clear: both;
-    position: absolute;
-    bottom: 0;
-    width: 100%;
-  }
-.attribution {
-    font-size: 11px;
-    text-align: center;
-  }
 
-  .attribution a {
-    color: hsl(228, 45%, 44%);
-  }
 @media screen and (max-width:600px){
     .container{
         width: 100%;
