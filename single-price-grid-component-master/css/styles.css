@@ -26,8 +26,6 @@ body{
 }
 main{
     display: flex;
-    flex-direction: column;
-    min-height: 100vh;
 }
 .container{
     width: 64rem;
@@ -136,6 +134,13 @@ main{
         width: 100%;
         padding: 0;
     }
+    .btn__signup:hover{
+        background-color: var(--brigh-yellow-color);
+    }
+    .btn__signup:active{
+        color:var(--brigh-yellow-color) ;
+    }
+    
 }
 
 
