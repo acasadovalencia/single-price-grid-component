@@ -18,11 +18,15 @@
 body{
     font-family: var(--font-karla);
     font-size: 1.6rem;
-    height: 100vh;
+    min-height: 100vh;
     display: flex;
     justify-content: center;
     align-items: center;
     background-color: var(--grayish-blue-color-bg);
+}
+main{
+    display: flex;
+    flex-direction: column;
 }
 .container{
     width: 64rem;
@@ -102,10 +106,12 @@ body{
     font-weight: 400;
     color: var(--light-gray-color);
 }
-footer{
+footer {
+    clear: both;
     position: absolute;
     bottom: 0;
-}
+    width: 100%;
+  }
 .attribution {
     font-size: 11px;
     text-align: center;
